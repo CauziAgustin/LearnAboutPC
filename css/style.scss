@@ -34,15 +34,22 @@ body{
     .cuerpo_titulo{
         text-align: center;
     }
-    .cuerpo_texto--parrafo{
-        margin: 25px;
-       .cuerpo_texto--parrafo{
-        font-size: 18px;
-    
-    } 
-    }
-    
 }
+.cuerpo_articulo{
+    margin: $margin;
+}
+.cuerpo_texto-parrafo{
+    font-size: $tipografiapag;
+}
+.cuerpo_articuloUno{
+ max-width: 100%;
+ max-height: 100%;
+}
+.imagenpc{
+    height: 250px;
+    width: 250px;
+}
+
  /*CARROUSEL*/
   .tamano{
     height: 65px;}
