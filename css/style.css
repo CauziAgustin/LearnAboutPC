@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #212529;
+}
+
+/*FOOTER*/
+.button-footer--facebook {
+  background: #3b5998;
+  border-color: #3b5998;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-footer--whatsapp {
+  background: #25d366;
+  border-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-footer--instagram {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5b51d8), color-stop(#833ab4), color-stop(#c13584), color-stop(#e1306c), color-stop(#fd1d1d), color-stop(#f56040), color-stop(#f77737), color-stop(#fcaf45), to(#fcaf45));
+  background: linear-gradient(#5b51d8, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #fcaf45);
+  border-color: linear-gradient(#5b51d8, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #fcaf45);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-footer--twitter {
+  background: #55acee;
+  border-color: #55acee;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-footer--facebook:hover, .button-footer--facebook:focus {
+  background: #3b5998;
+}
+
+.button-footer--whatsapp:hover, .button-footer--whatsapp:focus {
+  background: #25d366;
+}
+
+.button-footer--instagram:hover, .button-footer--instagram:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5b51d8), color-stop(#833ab4), color-stop(#c13584), color-stop(#e1306c), color-stop(#fd1d1d), color-stop(#f56040), color-stop(#f77737), color-stop(#fcaf45), to(#fcaf45));
+  background: linear-gradient(#5b51d8, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #fcaf45);
+}
+
+.button-footer--twitter:hover, .button-footer--twitter:focus {
+  background: #55acee;
+}
+
+/*CUERPO*/
+.cuerpo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #212529;
+  color: white;
+  -webkit-text-decoration-line: #36414b;
+          text-decoration-line: #36414b;
+}
+
+.cuerpo .cuerpo_titulo {
+  text-align: center;
+}
+
+.cuerpo .cuerpo_texto--parrafo {
+  margin: 25px;
+}
+
+ .cuerpo_texto--parrafo {
+  font-size: 30px;
+}
+
+/*CARROUSEL*/
+.tamano {
+  height: 65px;
+}
+
+@media screen and (max-width: 600px) {
+  .tamano {
+    height: 90px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
