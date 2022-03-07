@@ -69,3 +69,10 @@ body {
   font-size: 35px;
   color: #36A0FF;
 }
+
+@media screen and (max-width:770px){
+  .icono {
+  display: none;
+  }
+
+}
