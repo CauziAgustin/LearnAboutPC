@@ -49,7 +49,11 @@ body {
 .tamano {
   height: 65px;
 }
-
+.borde{
+  border: #36A0FF ,2px,solid;
+  width: auto;
+  height: auto;
+}
 @media screen and (max-width: 600px) {
   .tamano {
     height: 90px;
