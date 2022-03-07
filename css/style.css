@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Shippori Antique B1', sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
 }
 
 body {
@@ -79,30 +79,34 @@ body {
           align-items: center;
 }
 
-.button-footer--facebook:hover, .button-footer--facebook:focus {
+.button-footer--facebook:hover,
+.button-footer--facebook:focus {
   background: #3b5998;
 }
 
-.button-footer--whatsapp:hover, .button-footer--whatsapp:focus {
+.button-footer--whatsapp:hover,
+.button-footer--whatsapp:focus {
   background: #25d366;
 }
 
-.button-footer--instagram:hover, .button-footer--instagram:focus {
+.button-footer--instagram:hover,
+.button-footer--instagram:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#5b51d8), color-stop(#833ab4), color-stop(#c13584), color-stop(#e1306c), color-stop(#fd1d1d), color-stop(#f56040), color-stop(#f77737), color-stop(#fcaf45), to(#fcaf45));
   background: linear-gradient(#5b51d8, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #fcaf45);
 }
 
-.button-footer--twitter:hover, .button-footer--twitter:focus {
+.button-footer--twitter:hover,
+.button-footer--twitter:focus {
   background: #55acee;
 }
 
 /*CUERPO*/
-#MenuNavegacion {
+#MenuNavegacion, .fontsize {
   font-size: 20px;
 }
 
 .cuerpo {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #212529;
   color: white;
   -webkit-text-decoration-line: #36414b;
@@ -114,7 +118,7 @@ body {
 }
 
 .parrafodearmar {
-  margin: 0px, 10px, 0 ,20px;
+  margin: 0px, 10px, 0, 20px;
 }
 
 /*CARROUSEL*/
