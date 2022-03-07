@@ -49,3 +49,8 @@ body{
     height: 90px;
   }
   }
+  @media all and (max-width:800px){
+    .imgpc{
+        width: 350px;
+    }
+  }
