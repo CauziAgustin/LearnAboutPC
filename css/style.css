@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Shippori Antique B1', sans-serif;
 }
 
 body {
@@ -96,6 +97,10 @@ body {
 }
 
 /*CUERPO*/
+#MenuNavegacion {
+  font-size: 20px;
+}
+
 .cuerpo {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #212529;
@@ -108,9 +113,8 @@ body {
   text-align: center;
 }
 
-.img {
-  display: block;
-  margin: auto;
+.parrafodearmar {
+  margin: 0px, 10px, 0 ,20px;
 }
 
 /*CARROUSEL*/

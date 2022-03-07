@@ -1,61 +1,57 @@
 @import "variables";
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Shippori Antique B1", sans-serif;
 }
-body{
-    background: $bgprincipal;
+body {
+  background: $bgprincipal;
 }
 /*FOOTER*/
-@each $name-color,$bgcolor in $colors {
-    .button-footer--#{$name-color}{
-        background: $bgcolor;
-        border-color: $bgcolor;
-        border-radius: $circulo; 
-        width: $tamanocirculo;
-        height: $tamanocirculo;
-        display: flex;
-        justify-content: $center;
-        align-items: $center;
-    }
+@each $name-color, $bgcolor in $colors {
+  .button-footer--#{$name-color} {
+    background: $bgcolor;
+    border-color: $bgcolor;
+    border-radius: $circulo;
+    width: $tamanocirculo;
+    height: $tamanocirculo;
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+  }
 }
-@each  $name-color,$bgcolor in $colors {
-    .button-footer--#{$name-color}:hover, .button-footer--#{$name-color}:focus{
-        background: $bgcolor;
-    }
+@each $name-color, $bgcolor in $colors {
+  .button-footer--#{$name-color}:hover,
+  .button-footer--#{$name-color}:focus {
+    background: $bgcolor;
+  }
 }
 /*CUERPO*/
-
-.cuerpo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: $bgprincipal;
-    color: white;
-    text-decoration-line: $bgsecundario;
-    .cuerpo_titulo{
-        text-align: center;
-    }
-}  
-.img{
-    display: block;
-    margin: auto;
+#MenuNavegacion {
+  font-size: $tipografiapag;
 }
- /*CARROUSEL*/
-  .tamano{
-    height: 65px;}
- 
-  @media screen and (max-width:600px) {
-    .tamano{
+.cuerpo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: $bgprincipal;
+  color: white;
+  text-decoration-line: $bgsecundario;
+  .cuerpo_titulo {
+    text-align: center;
+  }
+}
+.parrafodearmar {
+  margin: 0px, 10px, 0, 20px;
+}
+
+/*CARROUSEL*/
+.tamano {
+  height: 65px;
+}
+
+@media screen and (max-width: 600px) {
+  .tamano {
     height: 90px;
   }
-  }
-  @media all and (max-width:800px){
-    .imgpc{
-        width: 350px;
-    }
-  }
-  @media all and (min-width:600px){
-    .imagencenter{
-        width: 75%;
-    }
-  }
+}
