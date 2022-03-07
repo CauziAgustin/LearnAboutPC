@@ -108,12 +108,9 @@ body {
   text-align: center;
 }
 
-.cuerpo_articulo {
-  margin: 50px;
-}
-
-.cuerpo_texto--parrafo {
-  font-size: 28px;
+.img {
+  display: block;
+  margin: auto;
 }
 
 /*CARROUSEL*/
